@@ -28,6 +28,6 @@ app.get('/' , async (req , res)=>{
     res.render('index')
 });
 
-server.listen(80 , ()=>{
+server.listen(8000 , ()=>{
     console.log('server started at port 80');
 });
